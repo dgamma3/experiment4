@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { HighlightableElementProvider, HighlightOverlay } from "react-native-highlight-overlay";
 
-import FavoriteList from "./components/FavoriteList";
-import Header from "./components/Header";
-import SimilarList from "./components/SimilarList";
-import { styled } from "./styled";
+import FavoriteList from "./src/components/FavoriteList";
+import Header from "./src/components/Header";
+import SimilarList from "./src/components/SimilarList";
+import { styled } from "./src/styled";
 
 export const HIGHLIGHTED_ID_1 = "one";
 export const HIGHLIGHTED_ID_2 = "two";
